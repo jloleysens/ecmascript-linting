@@ -13,168 +13,168 @@ module.exports = {
         trailingComma: 'all',
       }
     ],
-    "no-cond-assign": 0,
-    "no-irregular-whitespace": 2,
-    "no-unexpected-multiline": 2,
-    "valid-jsdoc": [
+    'no-cond-assign': 0,
+    'no-irregular-whitespace': 2,
+    'no-unexpected-multiline': 2,
+    'valid-jsdoc': [
       2,
       {
-        "requireParamDescription": false,
-        "requireReturnDescription": false,
-        "requireReturn": false,
-        "prefer": {
-          "returns": "return"
+        'requireParamDescription': false,
+        'requireReturnDescription': false,
+        'requireReturn': false,
+        'prefer': {
+          'returns': 'return'
         }
       }
     ],
-    "curly": [
+    'curly': [
       2,
-      "multi-line"
+      'multi-line'
     ],
-    "guard-for-in": 2,
-    "no-caller": 2,
-    "no-extend-native": 2,
-    "no-extra-bind": 2,
-    "no-invalid-this": 1,
-    "no-multi-spaces": 0,
-    "no-multi-str": 2,
-    "no-new-wrappers": 2,
-    "no-throw-literal": 2,
-    "no-with": 2,
-    "no-unused-vars": [
+    'guard-for-in': 2,
+    'no-caller': 2,
+    'no-extend-native': 2,
+    'no-extra-bind': 2,
+    'no-invalid-this': 1,
+    'no-multi-spaces': 0,
+    'no-multi-str': 2,
+    'no-new-wrappers': 2,
+    'no-throw-literal': 2,
+    'no-with': 2,
+    'no-unused-vars': [
       1,
       {
-        "args": "none"
+        'args': 'none'
       }
     ],
-    "array-bracket-spacing": [
+    'array-bracket-spacing': [
       2,
-      "never"
+      'never'
     ],
-    "brace-style": 2,
-    "camelcase": [
+    'brace-style': 2,
+    'camelcase': [
       0,
       {
-        "properties": "never"
+        'properties': 'never'
       }
     ],
-    "comma-dangle": [
+    'comma-dangle': [
       0,
-      "always-multiline"
+      'always-multiline'
     ],
-    "comma-spacing": 2,
-    "comma-style": 0,
-    "computed-property-spacing": 2,
-    "eol-last": 2,
-    "func-call-spacing": 2,
-    "key-spacing": 2,
-    "keyword-spacing": 1,
-    "linebreak-style": 2,
-    "max-len": [
-      0,
-      {
-        "code": 80,
-        "tabWidth": 2,
-        "ignoreUrls": true,
-        "ignorePattern": "^goog.(module|require)"
-      }
-    ],
-    "new-cap": 2,
-    "no-array-constructor": 2,
-    "no-mixed-spaces-and-tabs": 2,
-    "no-multiple-empty-lines": [
-      2,
-      {
-        "max": 2
-      }
-    ],
-    "no-new-object": 2,
-    "no-trailing-spaces": 2,
-    "object-curly-spacing": 2,
-    "one-var": [
+    'comma-spacing': 2,
+    'comma-style': 0,
+    'computed-property-spacing': 2,
+    'eol-last': 2,
+    'func-call-spacing': 2,
+    'key-spacing': 2,
+    'keyword-spacing': 1,
+    'linebreak-style': 2,
+    'max-len': [
       0,
       {
-        "var": "never",
-        "let": "never",
-        "const": "never"
+        'code': 80,
+        'tabWidth': 2,
+        'ignoreUrls': true,
+        'ignorePattern': '^goog.(module|require)'
       }
     ],
-    "padded-blocks": [
+    'new-cap': 2,
+    'no-array-constructor': 2,
+    'no-mixed-spaces-and-tabs': 2,
+    'no-multiple-empty-lines': [
       2,
-      "never"
+      {
+        'max': 2
+      }
     ],
-    "quote-props": [
+    'no-new-object': 2,
+    'no-trailing-spaces': 2,
+    'object-curly-spacing': 2,
+    'one-var': [
+      0,
+      {
+        'var': 'never',
+        'let': 'never',
+        'const': 'never'
+      }
+    ],
+    'padded-blocks': [
       2,
-      "consistent"
+      'never'
     ],
-    "quotes": [
+    'quote-props': [
+      2,
+      'consistent'
+    ],
+    'quotes': [
       1,
-      "single",
+      'single',
       {
-        "allowTemplateLiterals": true
+        'allowTemplateLiterals': true
       }
     ],
-    "require-jsdoc": [
+    'require-jsdoc': [
       1,
       {
-        "require": {
-          "FunctionDeclaration": true,
-          "MethodDefinition": true,
-          "ClassDeclaration": true
+        'require': {
+          'FunctionDeclaration': true,
+          'MethodDefinition': true,
+          'ClassDeclaration': true
         }
       }
     ],
-    "semi-spacing": 2,
-    "semi": 2,
-    "space-before-blocks": 1,
-    "space-before-function-paren": [
+    'semi-spacing': 2,
+    'semi': 2,
+    'space-before-blocks': 1,
+    'space-before-function-paren': [
       2,
-      "never"
+      'never'
     ],
-    "spaced-comment": [
+    'spaced-comment': [
       2,
-      "always"
+      'always'
     ],
-    "arrow-parens": [
+    'arrow-parens': [
       2,
-      "always"
+      'always'
     ],
-    "constructor-super": 2,
-    "generator-star-spacing": [
+    'constructor-super': 2,
+    'generator-star-spacing': [
       2,
-      "after"
+      'after'
     ],
-    "no-new-symbol": 2,
-    "no-this-before-super": 2,
-    "no-var": 0,
-    "prefer-rest-params": 2,
-    "prefer-spread": 0,
-    "rest-spread-spacing": 2,
-    "yield-star-spacing": [
+    'no-new-symbol': 2,
+    'no-this-before-super': 2,
+    'no-var': 0,
+    'prefer-rest-params': 2,
+    'prefer-spread': 0,
+    'rest-spread-spacing': 2,
+    'yield-star-spacing': [
       2,
-      "after"
+      'after'
     ],
-    "no-use-before-define": 1,
-    "indent": [1, 2],
-    "no-console": 0,
-    "no-param-reassign": 1,
-    "prefer-template": 0,
-    "no-restricted-syntax": 0,
-    "object-shorthand": 1,
-    "no-plusplus": 0,
-    "import/prefer-default-export": 0,
-    "no-undef": 1,
-    "no-await-in-loop": 0,
-    "global-require": 0,
-    "strict": 0,
-    "prefer-const": 1,
-    "func-names": 0
+    'no-use-before-define': 1,
+    'indent': [1, 2],
+    'no-console': 0,
+    'no-param-reassign': 1,
+    'prefer-template': 0,
+    'no-restricted-syntax': 0,
+    'object-shorthand': 1,
+    'no-plusplus': 0,
+    'import/prefer-default-export': 0,
+    'no-undef': 1,
+    'no-await-in-loop': 0,
+    'global-require': 0,
+    'strict': 0,
+    'prefer-const': 1,
+    'func-names': 0
   },
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 8,
-    "ecmaFeatures": {
-      "globalReturn": true
+  'parserOptions': {
+    'sourceType': 'module',
+    'ecmaVersion': 8,
+    'ecmaFeatures': {
+      'globalReturn': true
     }
   }
 };
