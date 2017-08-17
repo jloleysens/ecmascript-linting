@@ -10,7 +10,9 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all',
+        trailingComma: 'es5',
+        semi: true,
+        bracketSpacing: false
       }
     ],
     'no-cond-assign': 0,
@@ -141,7 +143,7 @@ module.exports = {
     ],
     'constructor-super': 2,
     'generator-star-spacing': [
-      2,
+      0,
       'after'
     ],
     'no-this-before-super': 2,
