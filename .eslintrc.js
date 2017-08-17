@@ -115,7 +115,7 @@ module.exports = {
       }
     ],
     'require-jsdoc': [
-      1,
+      0,
       {
         'require': {
           'FunctionDeclaration': true,
