@@ -65,9 +65,9 @@ module.exports = {
     'comma-spacing': 2,
     'comma-style': 0,
     'computed-property-spacing': 2,
-    'eol-last': 2,
-    'func-call-spacing': 2,
-    'key-spacing': 2,
+    'eol-last': 1,
+    'func-call-spacing': 1,
+    'key-spacing': 1,
     'keyword-spacing': 1,
     'linebreak-style': 2,
     'max-len': [
@@ -89,8 +89,8 @@ module.exports = {
       }
     ],
     'no-new-object': 2,
-    'no-trailing-spaces': 2,
-    'object-curly-spacing': 2,
+    'no-trailing-spaces': 1,
+    'object-curly-spacing': 1,
     'one-var': [
       0,
       {
@@ -100,7 +100,7 @@ module.exports = {
       }
     ],
     'padded-blocks': [
-      2,
+      1,
       'never'
     ],
     'quote-props': [
@@ -132,11 +132,11 @@ module.exports = {
       'never'
     ],
     'spaced-comment': [
-      2,
+      1,
       'always'
     ],
     'arrow-parens': [
-      2,
+      0,
       'always'
     ],
     'constructor-super': 2,
@@ -144,20 +144,17 @@ module.exports = {
       2,
       'after'
     ],
-    'no-new-symbol': 2,
     'no-this-before-super': 2,
     'no-var': 0,
-    'prefer-rest-params': 2,
     'prefer-spread': 0,
     'rest-spread-spacing': 2,
     'yield-star-spacing': [
-      2,
+      1,
       'after'
     ],
     'no-use-before-define': 1,
     'indent': [1, 2],
     'no-console': 0,
-    'no-param-reassign': 1,
     'prefer-template': 0,
     'no-restricted-syntax': 0,
     'object-shorthand': 1,
