@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jloleysens",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "EcmaScript linting defaults I like to use",
   "main": "index.js",
   "scripts": {
