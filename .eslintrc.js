@@ -155,7 +155,7 @@ module.exports = {
       'after'
     ],
     'no-use-before-define': 1,
-    'indent': [1, 2],
+    'indent': [1, 2, {"SwitchCase": 1}],
     'no-console': 0,
     'prefer-template': 0,
     'no-restricted-syntax': 0,

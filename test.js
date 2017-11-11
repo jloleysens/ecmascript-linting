@@ -8,3 +8,37 @@ if (require.main == module) {
     console.log('yaay!');
   }
 }
+
+const p = console.log;
+
+// No parens around arg
+var test = val => ({
+  map: f => f(val),
+  [4 + '2']: false,
+});
+
+// Object defaults
+var test2 = ({done = true, something = 1}) => ({
+  done,
+  something,
+});
+
+p(test2({something: 2}));
+
+// Object destructuring
+var {createReadStream} = require('fs');
+
+p('createReadStream function ?', typeof createReadStream == 'function');
+
+const c = 321;
+
+p(c - 2);
+
+switch (true) {
+  case false:
+    break;
+  case true:
+    break;
+  default:
+    break;
+}
