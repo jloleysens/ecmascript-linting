@@ -3,16 +3,16 @@ module.exports = {
     'es6': true,
     'node': true
   },
-  extends: ['eslint:recommended', 'prettier'],
-  plugins: ['prettier'],
-  rules: {
+  'extends': ['eslint:recommended', 'prettier'],
+  'plugins': ['prettier'],
+  'rules': {
     'prettier/prettier': [
       'error',
       {
-        singleQuote: true,
-        trailingComma: 'es5',
-        semi: true,
-        bracketSpacing: false
+        'singleQuote': true,
+        'trailingComma': 'es5',
+        'semi': true,
+        'bracketSpacing': false
       }
     ],
     'no-cond-assign': 0,
@@ -96,7 +96,7 @@ module.exports = {
     'one-var': [
       0,
       {
-        'var': 'never',
+        'var': 'always',
         'let': 'never',
         'const': 'never'
       }
@@ -155,7 +155,7 @@ module.exports = {
       'after'
     ],
     'no-use-before-define': 1,
-    'indent': [1, 2, {"SwitchCase": 1}],
+    'indent': [1, 2, {'SwitchCase': 1}],
     'no-console': 0,
     'prefer-template': 0,
     'no-restricted-syntax': 0,
