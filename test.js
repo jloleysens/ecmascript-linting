@@ -42,3 +42,7 @@ switch (true) {
   default:
     break;
 }
+
+const obj = {a: 1, b: '2', c: true};
+const obj1 = {...obj, d: null};
+p(obj1);
